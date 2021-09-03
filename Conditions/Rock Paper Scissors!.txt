@@ -1,0 +1,11 @@
+public class Kata {
+  public static String rps(String p1, String p2) {    
+    String winner = "";
+    if (p1 == p2) winner = "Draw!";
+    else if (p1 == "scissors" && p2 == "paper" || p1 == "rock" && p2 == "scissors" 
+             || p1 == "paper" && p2 == "rock") winner = "Player 1 won!";
+    else if (p2 == "scissors" && p1 == "paper" || p2 == "rock" && p1 == "scissors" 
+             || p2 == "paper" && p1 == "rock") winner = "Player 2 won!";
+    return winner;
+  }
+}

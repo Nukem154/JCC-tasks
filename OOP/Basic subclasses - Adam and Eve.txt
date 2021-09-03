@@ -1,0 +1,16 @@
+public class God {
+  public static Human[] create(){
+    Human adam = new Man();
+    Human eve = new Woman();
+    Human[] arr = {adam, eve};
+    return arr;
+  }
+}
+class Human {
+}
+
+class Man extends Human{
+}
+
+class Woman extends Human{ 
+}

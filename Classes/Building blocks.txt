@@ -1,0 +1,30 @@
+
+public class Block{
+  
+  private int width, length, height;
+	public Block() {}
+  public Block(int[] arr){
+    width = arr[0];
+    length = arr[1];
+    height = arr[2];
+  }
+  
+  public int getVolume(){
+    return width*height*length;
+  }
+  public int getSurfaceArea(){
+   return (height * width + length * width + height * length)* 2;
+  }
+  
+  public int getWidth(){
+    return width;
+  }
+  
+   public int getLength(){
+    return length;
+  }
+  
+   public int getHeight(){
+    return height;
+  }
+}

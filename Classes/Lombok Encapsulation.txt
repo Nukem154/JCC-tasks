@@ -1,0 +1,13 @@
+import lombok.*;
+
+@NoArgsConstructor
+@AllArgsConstructor
+public @Data class EncapsulationDemo{
+  @Setter @Getter
+  private int number;
+  @Setter @Getter
+  private String stringValue;
+  @Setter @Getter
+  private Object anObject;
+  
+}

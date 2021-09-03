@@ -1,0 +1,10 @@
+public class TrafficLights {
+
+  public static String updateLight(String current) {
+    String[] arr = {"green", "yellow", "red"};
+    if(current==arr[0]) return arr[1];
+    else if(current == arr[1]) return arr[2];
+    else return arr[0];
+  }
+  
+}
