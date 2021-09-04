@@ -1,0 +1,9 @@
+public class Kata {
+  public static boolean betterThanAverage(int[] classPoints, int yourPoints) {
+    int classP = 0;
+    for (int i : classPoints){
+      classP += i;
+    }
+   return classP/classPoints.length < yourPoints ? true : false;
+  }
+}

@@ -1,0 +1,24 @@
+public class Leetspeak extends Encoder {
+
+  public String encode(String source){
+    
+    return source ==  null ? "" : source.replace("a","4")
+                                        .replace("e","3")
+                                        .replace("l","1")
+                                        .replace("m","/^^\\")
+                                        .replace("o","0")
+                                        .replace("u","(_)")
+                                        .replace("A","4")
+                                        .replace("E","3")
+                                        .replace("L","1")
+                                        .replace("M","/^^\\")
+                                        .replace("O","0")
+                                        .replace("U","(_)");
+ 
+  }
+  
+}
+
+abstract class Encoder{
+  public abstract String encode(String source);
+}

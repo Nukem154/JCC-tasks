@@ -1,0 +1,9 @@
+public class TwiceAsOld{
+
+  public static int TwiceAsOld(int dadYears, int sonYears){
+    int x = sonYears*2-dadYears;
+    return x >= 0 ? x : x*-1;
+  
+  }
+
+}

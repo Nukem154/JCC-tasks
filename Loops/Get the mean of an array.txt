@@ -1,0 +1,10 @@
+public class School{
+
+ public static int getAverage(int[] marks){
+    	int avg = 0;
+	for (int i : marks){
+        	avg +=  i;
+    	}
+      return avg/marks.length;
+  } 
+}

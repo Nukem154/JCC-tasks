@@ -1,0 +1,9 @@
+public class Counter {
+  public int countSheeps(Boolean[] arrayOfSheeps) {
+    int number = 0;
+    for (boolean i : arrayOfSheeps){
+      if(i) number += 1;
+    }
+    return number;
+  }
+}
