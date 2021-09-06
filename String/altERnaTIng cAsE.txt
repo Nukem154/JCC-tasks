@@ -1,0 +1,15 @@
+public class StringUtils {
+  
+  public static String toAlternativeString(String string) {
+    String s = "";
+    for(char i : string.toCharArray()){
+      if(Character.isUpperCase(i)) {
+          s += Character.toLowerCase(i);
+      }
+      else{
+        s += Character.toUpperCase(i);
+      }
+    }
+    return s;
+  }
+}

@@ -1,0 +1,12 @@
+public class Hello{
+  public String sayHello(String [] name, String city, String state){
+    
+    String n = "";
+        for(String i : name)
+        {
+             n += " " + i;    
+        }
+    return "Hello," + n + "! Welcome to " + city + ", " + state + "!";
+  
+  }
+}

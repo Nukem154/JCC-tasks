@@ -1,0 +1,10 @@
+public class Kata
+{
+  public static String position(char alphabet)
+  {
+    char a = 'a';
+    int position = (int) alphabet - (int)a + 1;
+    
+    return "Position of alphabet: " + position;
+  }
+}

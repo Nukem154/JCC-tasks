@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Dictionary {
+  HashMap<String, String> map = new HashMap<String, String>();
+    public Dictionary(){
+    }
+
+    public void newEntry(String key, String value){
+        map.put(key, value);
+    }
+
+    public String look(String key){
+       return map.get(key) == null ? "Cant find entry for " + key : map.get(key);
+    }
+}
